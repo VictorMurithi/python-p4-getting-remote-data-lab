@@ -18,4 +18,4 @@ class GetRequester:
         pass
 
 get_requester = GetRequester('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
-get_requester.load_json()
+print(get_requester.load_json())
