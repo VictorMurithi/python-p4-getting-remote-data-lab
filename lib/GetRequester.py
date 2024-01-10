@@ -16,3 +16,6 @@ class GetRequester:
         response_body = self.get_response_body()
         return json.loads(response_body)
         pass
+
+get_requester = GetRequester('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
+get_requester.load_json()
